@@ -1,6 +1,6 @@
-﻿using Microsoft.VisualStudio.Utilities;
+﻿using System.Collections.Generic;
+using Microsoft.VisualStudio.Utilities;
 using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
-using System.Collections.Generic;
 
 namespace UmbSense.Completion.Directives
 {
@@ -15,5 +15,4 @@ namespace UmbSense.Completion.Directives
             { "callback", "when an ancestor is clicked. It will override the default link behaviour" }
         };
     }
-
 }

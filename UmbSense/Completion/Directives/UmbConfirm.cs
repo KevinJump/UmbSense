@@ -1,7 +1,6 @@
-﻿using Microsoft.VisualStudio.Utilities;
+﻿using System.Collections.Generic;
+using Microsoft.VisualStudio.Utilities;
 using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
-
-using System.Collections.Generic;
 
 namespace UmbSense.Completion.Directives
 {

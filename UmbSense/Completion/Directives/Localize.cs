@@ -1,7 +1,6 @@
-﻿using Microsoft.VisualStudio.Utilities;
+﻿using System.Collections.Generic;
+using Microsoft.VisualStudio.Utilities;
 using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
-
-using System.Collections.Generic;
 
 namespace UmbSense.Completion.Directives
 {
@@ -11,7 +10,7 @@ namespace UmbSense.Completion.Directives
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            {  "key", "placeholder from xml file" }
+            { "key", "placeholder from xml file" }
         };
     }
 
@@ -21,7 +20,7 @@ namespace UmbSense.Completion.Directives
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            {  "localize", "placeholder from xml file" }
+            { "localize", "placeholder from xml file" }
         };
     }
 }
