@@ -3,11 +3,11 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 using System.Collections.Generic;
 
-namespace UmbSense.Compleation.Directives
+namespace UmbSense.Completion.Directives
 {
     [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-confirm-action")]
     [ContentType("htmlx")]
-    class UmbConfirmAction : BaseCompleation
+    class UmbConfirmAction : BaseCompletion
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
@@ -19,7 +19,7 @@ namespace UmbSense.Compleation.Directives
 
     [HtmlCompletionProvider(CompletionTypes.Values, "umb-confirm-action", "*")]
     [ContentType("htmlx")]
-    class UmbConfirmActionValues : BaseValueCompleation
+    class UmbConfirmActionValues : BaseValueCompletion
     {
         protected override Dictionary<string, List<string>> attribValues => new Dictionary<string, List<string>>()
         {

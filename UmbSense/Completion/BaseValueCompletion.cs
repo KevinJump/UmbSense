@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using Microsoft.WebTools.Languages.Html.Editor.Completion;
 using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
-namespace UmbSense.Compleation
+namespace UmbSense.Completion
 {
-    abstract class BaseValueCompleation : BaseCompleation
+    abstract class BaseValueCompletion : BaseCompletion
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>();
 

@@ -1,4 +1,4 @@
-﻿namespace UmbSense.Compleation
+﻿namespace UmbSense.Completion
 {
     public static class CompletionTypes
     {
