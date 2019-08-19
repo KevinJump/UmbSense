@@ -62,6 +62,7 @@
     <Compile Include="Completion\Directives\UmbEditorSubHeader.cs" />
     <Compile Include="Completion\Directives\UmbEditorView.cs" />
     <Compile Include="Completion\Directives\UmbEmptyState.cs" />
+    <Compile Include="Completion\Directives\UmbTable.cs" />
     <Compile Include="Completion\Directives\UmbToggle.cs" />
     <Compile Include="Completion\UmbracoElements.cs" />
     <Compile Include="Images.imagemanifest.cs" />
