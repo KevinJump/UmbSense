@@ -1,23 +1,23 @@
-﻿using Microsoft.VisualStudio.Imaging.Interop;
-using Microsoft.VisualStudio.Language.Intellisense;
-using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Shell.Interop;
-using Microsoft.WebTools.Languages.Html.Editor.Completion;
-using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using Microsoft.VisualStudio.Imaging.Interop;
+using Microsoft.VisualStudio.Language.Intellisense;
+using Microsoft.VisualStudio.Shell;
+using Microsoft.VisualStudio.Shell.Interop;
+using Microsoft.WebTools.Languages.Html.Editor.Completion;
+using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 namespace UmbSense.Completion
 {
     abstract class BaseCompletion : IHtmlCompletionListProvider
     {
         public string CompletionType { get; }
+
         protected string elementName;
 
         protected BaseCompletion()
@@ -33,8 +33,8 @@ namespace UmbSense.Completion
 
         public virtual IList<HtmlCompletion> GetEntries(HtmlCompletionContext context)
         {
-            if (context.Element != null 
-                && (this.elementName == "*" || context.Element.Name.Equals(this.elementName)) )
+            if (context.Element != null
+                && (this.elementName == "*" || context.Element.Name.Equals(this.elementName)))
             {
                 return ValueList(values, context.Session);
             }
@@ -52,7 +52,6 @@ namespace UmbSense.Completion
         {
             return values.Select(x => CreateItem(x, string.Empty, session))
                 .ToList();
-
         }
 
         protected HtmlCompletion CreateItem(string name, string description, ICompletionSession session)
@@ -93,6 +92,5 @@ namespace UmbSense.Completion
 
             return data as BitmapSource;
         }
-
     }
 }

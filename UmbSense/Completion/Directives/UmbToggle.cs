@@ -1,7 +1,6 @@
-﻿using Microsoft.VisualStudio.Utilities;
+﻿using System.Collections.Generic;
+using Microsoft.VisualStudio.Utilities;
 using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
-
-using System.Collections.Generic;
 
 namespace UmbSense.Completion.Directives
 {
@@ -11,7 +10,7 @@ namespace UmbSense.Completion.Directives
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { "checked", "Set to true or false to toggle the switch" } ,
+            { "checked", "Set to true or false to toggle the switch" },
             { "on-click", "The function which should be called when the toggle is clicked" },
             { "show-labels", "Set to true or false to show a \"On\" or \"Off\" label" },
             { "label-on", "Set a custom label for when the switched is turned on" },
@@ -28,8 +27,8 @@ namespace UmbSense.Completion.Directives
         protected override Dictionary<string, List<string>> attribValues => new Dictionary<string, List<string>>()
         {
             { "label-position", new List<string> { "left", "right" } },
-            { "show-labels", new List<string> { "true", "false"} },
-            { "hide-icons", new List<string> { "true", "false"} },
+            { "show-labels", new List<string> { "true", "false" } },
+            { "hide-icons", new List<string> { "true", "false" } },
         };
     }
 }

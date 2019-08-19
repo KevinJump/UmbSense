@@ -1,6 +1,6 @@
-﻿using Microsoft.VisualStudio.Utilities;
+﻿using System.Collections.Generic;
+using Microsoft.VisualStudio.Utilities;
 using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
-using System.Collections.Generic;
 
 namespace UmbSense.Completion.Directives
 {
@@ -13,7 +13,6 @@ namespace UmbSense.Completion.Directives
             { "size", "Set the size of the text " },
             { "position", "Set the position of the text" }
         };
-
     }
 
     [HtmlCompletionProvider(CompletionTypes.Values, "umb-empty-stage", "*")]
@@ -25,5 +24,4 @@ namespace UmbSense.Completion.Directives
             { "size", new List<string> { "small", "large" } }
         };
     }
-
 }
