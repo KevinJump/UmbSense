@@ -1,10 +1,6 @@
-﻿using Microsoft.VisualStudio.Utilities;
+﻿using System.Collections.Generic;
+using Microsoft.VisualStudio.Utilities;
 using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UmbSense.Completion.Directives
 {
@@ -36,9 +32,7 @@ namespace UmbSense.Completion.Directives
     {
         protected override Dictionary<string, List<string>> attribValues => new Dictionary<string, List<string>>()
         {
-            { "button-style", new List<string> {
-                    "action", "primary", "info", "success", "warning", "danger", "inverse", "link", "block" }
-            },
+            { "button-style", new List<string> { "action", "primary", "info", "success", "warning", "danger", "inverse", "link", "block" } },
             { "type", new List<string> { "button", "submit" } },
             { "size", new List<string> { "xs", "m", "l", "xl" } }
         };
