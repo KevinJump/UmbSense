@@ -13,14 +13,14 @@ using System.Runtime.InteropServices;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace UmbSense.Compleation
+namespace UmbSense.Completion
 {
-    abstract class BaseCompleation : IHtmlCompletionListProvider
+    abstract class BaseCompletion : IHtmlCompletionListProvider
     {
         public string CompletionType { get; }
         protected string elementName;
 
-        protected BaseCompleation()
+        protected BaseCompletion()
         {
             var thisType = GetType();
             var meta = thisType.GetCustomAttribute<HtmlCompletionProviderAttribute>(false);

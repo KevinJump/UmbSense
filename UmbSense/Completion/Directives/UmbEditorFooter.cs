@@ -6,15 +6,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UmbSense.Compleation.Directives
+namespace UmbSense.Completion.Directives
 {
-    [HtmlCompletionProvider(CompletionTypes.Children, "umb-editor-container")]
+    [HtmlCompletionProvider(CompletionTypes.Children, "umb-editor-view")]
     [ContentType("htmlx")]
-    class UmbEditorContainer : BaseCompleation
+    class UmbEditorFooter : BaseCompletion
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            {  "umb-editor-sub-header", "" }
+            { "umb-editor-footer-content-left", "" },
+            { "umb-editor-footer-content-right", "" }
         };
     }
 }

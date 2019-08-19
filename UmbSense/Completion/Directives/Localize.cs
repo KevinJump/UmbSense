@@ -3,11 +3,11 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 using System.Collections.Generic;
 
-namespace UmbSense.Compleation.Directives
+namespace UmbSense.Completion.Directives
 {
     [HtmlCompletionProvider(CompletionTypes.Attributes, "localize")]
     [ContentType("htmlx")]
-    class Localize : BaseCompleation
+    class Localize : BaseCompletion
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
@@ -17,7 +17,7 @@ namespace UmbSense.Compleation.Directives
 
     [HtmlCompletionProvider(CompletionTypes.Attributes, "input")]
     [ContentType("htmlx")]
-    class LocalizeInput : BaseCompleation
+    class LocalizeInput : BaseCompletion
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {

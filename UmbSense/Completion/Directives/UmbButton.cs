@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UmbSense.Compleation.Directives
+namespace UmbSense.Completion.Directives
 {
     [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-button")]
     [ContentType("htmlx")]
-    class UmbButton : BaseCompleation
+    class UmbButton : BaseCompletion
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
@@ -32,7 +32,7 @@ namespace UmbSense.Compleation.Directives
 
     [HtmlCompletionProvider(CompletionTypes.Values, "umb-button", "*")]
     [ContentType("htmlx")]
-    class UmbButtonValues : BaseValueCompleation
+    class UmbButtonValues : BaseValueCompletion
     {
         protected override Dictionary<string, List<string>> attribValues => new Dictionary<string, List<string>>()
         {

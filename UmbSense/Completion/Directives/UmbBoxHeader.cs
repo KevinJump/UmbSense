@@ -2,11 +2,11 @@
 using Microsoft.VisualStudio.Utilities;
 using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
-namespace UmbSense.Compleation.Directives
+namespace UmbSense.Completion.Directives
 {
     [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-box-header")]
     [ContentType("htmlx")]
-    class UmbBoxHeader : BaseCompleation
+    class UmbBoxHeader : BaseCompletion
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {

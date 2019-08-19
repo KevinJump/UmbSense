@@ -3,12 +3,12 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 using System.Collections.Generic;
 
-namespace UmbSense.Compleation.Directives
+namespace UmbSense.Completion.Directives
 {
 
     [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-editor-header")]
     [ContentType("htmlx")]
-    class UmbEditorHeaderValues : BaseCompleation
+    class UmbEditorHeaderValues : BaseCompletion
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {

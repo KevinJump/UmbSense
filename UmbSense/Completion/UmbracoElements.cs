@@ -3,11 +3,11 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 using System.Collections.Generic;
 
-namespace UmbSense.Compleation
+namespace UmbSense.Completion
 {
     [HtmlCompletionProvider(CompletionTypes.Children, "*")]
     [ContentType("htmlx")]
-    class UmbracoElements : BaseCompleation
+    class UmbracoElements : BaseCompletion
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
