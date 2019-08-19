@@ -4,14 +4,13 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 namespace UmbSense.Completion.Directives
 {
-    [HtmlCompletionProvider(CompletionTypes.Children, "umb-editor-container")]
+    [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-tooltip")]
     [ContentType("htmlx")]
-    class UmbEditorSubHeader : BaseCompletion
+    class UmbTooltip : BaseCompletion
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { "umb-editor-sub-header-content-right", "" },
-            { "umb-editor-sub-header-content-left", "" }
+            { "event", "Set the $event from the target element to position the tooltip relative to the mouse cursor." },
         };
     }
 }
