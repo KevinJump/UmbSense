@@ -49,11 +49,14 @@
     <Compile Include="Completion\BaseValueCompletion.cs" />
     <Compile Include="Completion\CompletionTypes.cs" />
     <Compile Include="Completion\Directives\Localize.cs" />
+    <Compile Include="Completion\Directives\UmbColorSwatches.cs" />
+    <Compile Include="Completion\Directives\UmbChildSelector.cs" />
     <Compile Include="Completion\Directives\UmbBox.cs" />
     <Compile Include="Completion\Directives\UmbBoxHeader.cs" />
     <Compile Include="Completion\Directives\UmbBreadcrumbs.cs" />
     <Compile Include="Completion\Directives\UmbButton.cs" />
     <Compile Include="Completion\Directives\UmbButtonGroup.cs" />
+    <Compile Include="Completion\Directives\UmbContentGrid.cs" />
     <Compile Include="Completion\Directives\UmbConfirm.cs" />
     <Compile Include="Completion\Directives\UmbConfirmAction.cs" />
     <Compile Include="Completion\Directives\UmbEditorContainer.cs" />
@@ -63,6 +66,7 @@
     <Compile Include="Completion\Directives\UmbEditorView.cs" />
     <Compile Include="Completion\Directives\UmbEmptyState.cs" />
     <Compile Include="Completion\Directives\UmbTable.cs" />
+    <Compile Include="Completion\Directives\UmbAvatar.cs" />
     <Compile Include="Completion\Directives\UmbTooltip.cs" />
     <Compile Include="Completion\Directives\UmbNodePreview.cs" />
     <Compile Include="Completion\Directives\UmbToggle.cs" />
@@ -75,6 +79,10 @@
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="demo.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="umbsense.imagemanifest">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

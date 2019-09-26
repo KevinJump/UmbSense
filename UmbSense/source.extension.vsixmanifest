@@ -4,6 +4,10 @@
         <Identity Id="UmbSense.87c2a81e-64e1-4127-82f6-4aeb7a7f6d83" Version="1.0" Language="en-US" Publisher="Kevin Jump" />
         <DisplayName>UmbSense</DisplayName>
         <Description xml:space="preserve">Intellisense for Umbaco Backoffice UI.</Description>
+        <MoreInfo>https://github.com/KevinJump/UmbSense</MoreInfo>
+        <PreviewImage>demo.gif</PreviewImage>
+        <Tags>umbraco</Tags>
+        <Preview>true</Preview>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
