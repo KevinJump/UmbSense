@@ -5,6 +5,8 @@
         <DisplayName>UmbSense</DisplayName>
         <Description xml:space="preserve">Intellisense for Umbaco Backoffice UI.</Description>
         <MoreInfo>https://github.com/KevinJump/UmbSense</MoreInfo>
+        <License>LICENSE</License>
+        <Icon>rocketship.png</Icon>
         <PreviewImage>demo.gif</PreviewImage>
         <Tags>umbraco</Tags>
         <Preview>true</Preview>
