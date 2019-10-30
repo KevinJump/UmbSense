@@ -336,5 +336,8 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
+# Git files
+*.orig
+
 # BeatPulse healthcheck temp database
 healthchecksdb
