@@ -26,7 +26,7 @@ namespace UmbSense.Completion
             { UmbEmptyState.TagName, "Use this directive to show an empty state message." },
             { UmbNodePreview.TagName, "Use this directive to render a node preview." },
             { "umb-pane", "" },
-            { "umb-panal", "" },
+            { "umb-panel", "" },
             { UmbTable.TagName, "Use this directive to render a data table." },
             { UmbToggle.TagName, "Use this directive to render an umbraco toggle." },
             { UmbTooltip.TagName, "Use this directive to render a tooltip." },
