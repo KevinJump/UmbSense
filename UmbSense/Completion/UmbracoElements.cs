@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.VisualStudio.Utilities;
 using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
+using UmbSense.Completion.Directives;
 
 namespace UmbSense.Completion
 {
@@ -10,7 +11,7 @@ namespace UmbSense.Completion
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { "localize", "Localize a specific token to put into the HTML as an item" },
+            { Localize.TagName, "Localize a specific token to put into the HTML as an item." },
             { "umb-box",  "Use this directive to render an already styled empty div tag." },
             { "umb-breadcrumbs", "Use this directive to generate a list of breadcrumbs" },
             { "umb-button", "" },
