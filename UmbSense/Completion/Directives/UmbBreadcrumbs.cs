@@ -4,10 +4,12 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 namespace UmbSense.Completion.Directives
 {
-    [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-breadcrumbs")]
+    [HtmlCompletionProvider(CompletionTypes.Attributes, TagName)]
     [ContentType("htmlx")]
     class UmbBreadcrumbs : BaseCompletion
     {
+        internal const string TagName = "umb-breadcrumbs";
+
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { "ancestors", "Array of ancestors" },

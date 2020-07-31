@@ -8,6 +8,8 @@ namespace UmbSense.Completion.Directives
     [ContentType("htmlx")]
     class UmbTable : BaseCompletion
     {
+        internal const string TagName = "umb-table";
+
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { "items", "" },
@@ -22,7 +24,7 @@ namespace UmbSense.Completion.Directives
         };
     }
 
-    [HtmlCompletionProvider(CompletionTypes.Values, "umb-table")]
+    [HtmlCompletionProvider(CompletionTypes.Values, UmbTable.TagName)]
     [ContentType("htmlx")]
     class UmbTableValues : BaseValueCompletion
     {

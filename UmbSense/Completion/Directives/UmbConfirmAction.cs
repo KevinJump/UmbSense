@@ -4,10 +4,12 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 namespace UmbSense.Completion.Directives
 {
-    [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-confirm-action")]
+    [HtmlCompletionProvider(CompletionTypes.Attributes, TagName)]
     [ContentType("htmlx")]
     class UmbConfirmAction : BaseCompletion
     {
+        internal const string TagName = "umb-confirm-action";
+
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { "direction", "The direction the prompt options" },
@@ -16,7 +18,7 @@ namespace UmbSense.Completion.Directives
         };
     }
 
-    [HtmlCompletionProvider(CompletionTypes.Values, "umb-confirm-action", "*")]
+    [HtmlCompletionProvider(CompletionTypes.Values, UmbConfirmAction.TagName, "*")]
     [ContentType("htmlx")]
     class UmbConfirmActionValues : BaseValueCompletion
     {

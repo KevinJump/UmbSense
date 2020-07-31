@@ -8,6 +8,8 @@ namespace UmbSense.Completion.Directives
     [ContentType("htmlx")]
     class UmbTooltip : BaseCompletion
     {
+        internal const string TagName = "umb-tooltip";
+
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { "event", "Set the $event from the target element to position the tooltip relative to the mouse cursor." },
