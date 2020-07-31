@@ -12,6 +12,7 @@ namespace UmbSense.Completion
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { Localize.TagName, "Localize a specific token to put into the HTML as an item." },
+            { UmbAvatar.TagName, "Use this directive to render an avatar." },
             { UmbBox.TagName,  "Use this directive to render an already styled empty div tag." },
             { UmbBreadcrumbs.TagName, "Use this directive to generate a list of breadcrumbs." },
             { UmbButton.TagName, "Use this directive to render an Umbraco button. The directive can be used to generate all types of buttons, set type, style, translation, shortcut and much more." },
