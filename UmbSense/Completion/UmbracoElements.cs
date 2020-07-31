@@ -12,7 +12,7 @@ namespace UmbSense.Completion
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { Localize.TagName, "Localize a specific token to put into the HTML as an item." },
-            { "umb-box",  "Use this directive to render an already styled empty div tag." },
+            { UmbBox.TagName,  "Use this directive to render an already styled empty div tag." },
             { "umb-breadcrumbs", "Use this directive to generate a list of breadcrumbs" },
             { "umb-button", "" },
             { "umb-button-group", "" },
