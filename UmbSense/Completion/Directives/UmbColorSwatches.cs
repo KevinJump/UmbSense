@@ -16,8 +16,19 @@ namespace UmbSense.Completion.Directives
             { "selected-color", "The selected color" },
             { "size", "The size (s, m)" },
             { "use-label", "Specify if labels should be used" },
-            { "use-color-class", "Specify if color values are css classes" },
+            { "use-color-class", "Specify if color values are CSS classes" },
+            { "color-class-name-prefix", "Specify the prefix used for the class for each color." },
             { "on-select", "Callback function when the item is selected" },
+        };
+    }
+
+    [HtmlCompletionProvider(CompletionTypes.Values, UmbColorSwatches.TagName, "*")]
+    [ContentType("htmlx")]
+    class UmbColorSwatchesValues : BaseValueCompletion
+    {
+        protected override Dictionary<string, List<string>> attribValues => new Dictionary<string, List<string>>()
+        {
+            { "size", new List<string> { "s", "m" } }
         };
     }
 }
