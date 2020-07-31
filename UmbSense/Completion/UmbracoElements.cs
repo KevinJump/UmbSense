@@ -23,7 +23,8 @@ namespace UmbSense.Completion
             { "umb-pane", "" },
             { "umb-panal", "" },
             { UmbTable.TagName, "Use this directive to render a data table." },
-            { UmbToggle.TagName, "Use this directive to render an umbraco toggle." }
+            { UmbToggle.TagName, "Use this directive to render an umbraco toggle." },
+            { UmbTooltip.TagName, "Use this directive to render a tooltip." },
         };
     }
 }
