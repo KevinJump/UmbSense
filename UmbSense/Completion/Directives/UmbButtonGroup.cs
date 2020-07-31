@@ -4,10 +4,12 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 namespace UmbSense.Completion.Directives
 {
-    [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-button-group")]
+    [HtmlCompletionProvider(CompletionTypes.Attributes, TagName)]
     [ContentType("htmlx")]
     class UmbButtonGroup : BaseCompletion
     {
+        internal const string TagName = "umb-button-group";
+
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { "default-button", "The model of the default button" },
@@ -18,7 +20,7 @@ namespace UmbSense.Completion.Directives
         };
     }
 
-    [HtmlCompletionProvider(CompletionTypes.Values, "umb-button-group", "*")]
+    [HtmlCompletionProvider(CompletionTypes.Values, UmbButtonGroup.TagName, "*")]
     [ContentType("htmlx")]
     class UmbButtonGroupValues : BaseValueCompletion
     {
@@ -28,5 +30,4 @@ namespace UmbSense.Completion.Directives
             { "float", new List<string> { "left", "right" } }
         };
     }
-
 }
