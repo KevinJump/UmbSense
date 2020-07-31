@@ -12,9 +12,9 @@ namespace UmbSense.Completion.Directives
 
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { "ancestors", "Array of ancestors" },
-            { "entity-type", "The content entity type" },
-            { "callback", "when an ancestor is clicked. It will override the default link behaviour" }
+            { "ancestors", "Array of ancestors." },
+            { "entity-type", "The content entity type." },
+            { "callback", "When an ancestor is clicked. It will override the default link behaviour." }
         };
     }
 }
