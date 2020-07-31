@@ -4,10 +4,12 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 namespace UmbSense.Completion.Directives
 {
-    [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-button")]
+    [HtmlCompletionProvider(CompletionTypes.Attributes, TagName)]
     [ContentType("htmlx")]
     class UmbButton : BaseCompletion
     {
+        internal const string TagName = "umb-button";
+
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { "action", "The button action which should be performed when the button is clicked." },
@@ -26,7 +28,7 @@ namespace UmbSense.Completion.Directives
         };
     }
 
-    [HtmlCompletionProvider(CompletionTypes.Values, "umb-button", "*")]
+    [HtmlCompletionProvider(CompletionTypes.Values, UmbButton.TagName, "*")]
     [ContentType("htmlx")]
     class UmbButtonValues : BaseValueCompletion
     {
