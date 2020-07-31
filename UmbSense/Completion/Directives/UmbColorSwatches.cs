@@ -4,10 +4,12 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 namespace UmbSense.Completion.Directives
 {
-    [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-color-swatches")]
+    [HtmlCompletionProvider(CompletionTypes.Attributes, TagName)]
     [ContentType("htmlx")]
     class UmbColorSwatches : BaseCompletion
     {
+        internal const string TagName = "umb-color-swatches";
+
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { "colors", "The array of colors" },
