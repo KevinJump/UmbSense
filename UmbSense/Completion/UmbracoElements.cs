@@ -13,7 +13,7 @@ namespace UmbSense.Completion
         {
             { Localize.TagName, "Localize a specific token to put into the HTML as an item." },
             { UmbBox.TagName,  "Use this directive to render an already styled empty div tag." },
-            { "umb-breadcrumbs", "Use this directive to generate a list of breadcrumbs" },
+            { UmbBreadcrumbs.TagName, "Use this directive to generate a list of breadcrumbs." },
             { "umb-button", "" },
             { "umb-button-group", "" },
             { "umb-confirm", "" },
