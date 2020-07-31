@@ -49,6 +49,7 @@
     <Compile Include="Completion\BaseValueCompletion.cs" />
     <Compile Include="Completion\CompletionTypes.cs" />
     <Compile Include="Completion\Directives\Localize.cs" />
+    <Compile Include="Completion\Directives\UmbCodeSnippet.cs" />
     <Compile Include="Completion\Directives\UmbColorSwatches.cs" />
     <Compile Include="Completion\Directives\UmbChildSelector.cs" />
     <Compile Include="Completion\Directives\UmbBox.cs" />
