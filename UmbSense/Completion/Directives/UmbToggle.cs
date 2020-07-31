@@ -4,10 +4,12 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 namespace UmbSense.Completion.Directives
 {
-    [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-toggle")]
+    [HtmlCompletionProvider(CompletionTypes.Attributes, TagName)]
     [ContentType("htmlx")]
     class UmbToggle : BaseCompletion
     {
+        internal const string TagName = "umb-toggle";
+
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { "checked", "Set to true or false to toggle the switch" },
@@ -20,7 +22,7 @@ namespace UmbSense.Completion.Directives
         };
     }
 
-    [HtmlCompletionProvider(CompletionTypes.Values, "umb-toggle")]
+    [HtmlCompletionProvider(CompletionTypes.Values, UmbToggle.TagName, "*")]
     [ContentType("htmlx")]
     class UmbToggleValues : BaseValueCompletion
     {
