@@ -4,10 +4,12 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 namespace UmbSense.Completion.Directives
 {
-    [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-empty-state")]
+    [HtmlCompletionProvider(CompletionTypes.Attributes, TagName)]
     [ContentType("htmlx")]
     class UmbEmptyState : BaseCompletion
     {
+        internal const string TagName = "umb-empty-state";
+
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { "size", "Set the size of the text " },
@@ -15,7 +17,7 @@ namespace UmbSense.Completion.Directives
         };
     }
 
-    [HtmlCompletionProvider(CompletionTypes.Values, "umb-empty-stage", "*")]
+    [HtmlCompletionProvider(CompletionTypes.Values, UmbEmptyState.TagName, "*")]
     [ContentType("htmlx")]
     class UmbEmptyStateValues : BaseValueCompletion
     {

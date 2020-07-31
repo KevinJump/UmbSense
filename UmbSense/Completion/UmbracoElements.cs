@@ -19,7 +19,7 @@ namespace UmbSense.Completion
             { UmbConfirm.TagName, "A confirmation dialog" },
             { UmbConfirmAction.TagName, "Use this directive to toggle a confirmation prompt for an action." },
             { UmbEditorView.TagName, "Use this directive to construct the main editor window." },
-            { "umb-empty-state", "" },
+            { UmbEmptyState.TagName, "Use this directive to show an empty state message." },
             { "umb-pane", "" },
             { "umb-panal", "" },
             { "umb-toggle", "" }
