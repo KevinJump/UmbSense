@@ -16,6 +16,7 @@ namespace UmbSense.Completion
             { UmbBreadcrumbs.TagName, "Use this directive to generate a list of breadcrumbs." },
             { UmbButton.TagName, "Use this directive to render an Umbraco button. The directive can be used to generate all types of buttons, set type, style, translation, shortcut and much more." },
             { UmbButtonGroup.TagName, "Use this directive to render a button with a dropdown of alternative actions." },
+            { UmbChildSelector.TagName, "Use this directive to render a ui component for selecting child items to a parent node." },
             { UmbConfirm.TagName, "A confirmation dialog" },
             { UmbConfirmAction.TagName, "Use this directive to toggle a confirmation prompt for an action." },
             { UmbContentGrid.TagName, "Use this directive to generate a list of content items presented as a flexbox grid." },
