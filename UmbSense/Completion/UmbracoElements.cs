@@ -20,6 +20,7 @@ namespace UmbSense.Completion
             { UmbConfirmAction.TagName, "Use this directive to toggle a confirmation prompt for an action." },
             { UmbEditorView.TagName, "Use this directive to construct the main editor window." },
             { UmbEmptyState.TagName, "Use this directive to show an empty state message." },
+            { UmbNodePreview.TagName, "Use this directive to render a node preview." },
             { "umb-pane", "" },
             { "umb-panal", "" },
             { UmbTable.TagName, "Use this directive to render a data table." },

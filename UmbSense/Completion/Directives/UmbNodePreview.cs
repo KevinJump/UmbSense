@@ -4,10 +4,12 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 namespace UmbSense.Completion.Directives
 {
-    [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-node-preview")]
+    [HtmlCompletionProvider(CompletionTypes.Attributes, TagName)]
     [ContentType("htmlx")]
     class UmbNodePreview : BaseCompletion
     {
+        internal const string TagName = "umb-node-preview";
+
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { "icon", "The node icon." },
@@ -29,7 +31,7 @@ namespace UmbSense.Completion.Directives
         };
     }
 
-    [HtmlCompletionProvider(CompletionTypes.Values, "umb-node-preview")]
+    [HtmlCompletionProvider(CompletionTypes.Values, UmbNodePreview.TagName)]
     [ContentType("htmlx")]
     class UmbNodePreviewValues : BaseValueCompletion
     {
@@ -37,6 +39,9 @@ namespace UmbSense.Completion.Directives
         {
             { "published", new List<string> { "true", "false" } },
             { "sortable", new List<string> { "true", "false" } },
+            { "allow-open", new List<string> { "true", "false" } },
+            { "allow-remove", new List<string> { "true", "false" } },
+            { "allow-edit", new List<string> { "true", "false" } },
         };
     }
 }
