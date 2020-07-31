@@ -4,10 +4,12 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 namespace UmbSense.Completion.Directives
 {
-    [HtmlCompletionProvider(CompletionTypes.Attributes, "umb-box-header")]
+    [HtmlCompletionProvider(CompletionTypes.Attributes, TagName)]
     [ContentType("htmlx")]
     class UmbBoxHeader : BaseCompletion
     {
+        internal const string TagName = "umb-box-header";
+
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { "title", "Custom title text" },

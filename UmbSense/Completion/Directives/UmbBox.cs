@@ -12,7 +12,7 @@ namespace UmbSense.Completion.Directives
 
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { "umb-box-header", "header" },
+            { UmbBoxHeader.TagName, "Use this directive to construct a title." },
             { "umb-box-content", "content" }
         };
     }
