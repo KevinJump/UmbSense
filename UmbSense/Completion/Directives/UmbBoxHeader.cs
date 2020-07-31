@@ -12,10 +12,10 @@ namespace UmbSense.Completion.Directives
 
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { "title", "Custom title text" },
-            { "titleKey", "The translation key from the language xml files" },
-            { "description", "Custom description text" },
-            { "descriptionKey", "The translation key from the language xml file" }
+            { "title", "Custom title text." },
+            { "title-key", "The translation key from the language XML files." },
+            { "description", "Custom description text." },
+            { "description-key", "The translation key from the language XML files." }
         };
     }
 }
