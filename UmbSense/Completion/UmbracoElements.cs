@@ -18,7 +18,7 @@ namespace UmbSense.Completion
             { UmbButtonGroup.TagName, "Use this directive to render a button with a dropdown of alternative actions." },
             { UmbConfirm.TagName, "A confirmation dialog" },
             { UmbConfirmAction.TagName, "Use this directive to toggle a confirmation prompt for an action." },
-            { "umb-editor-view", "" },
+            { UmbEditorView.TagName, "Use this directive to construct the main editor window." },
             { "umb-empty-state", "" },
             { "umb-pane", "" },
             { "umb-panal", "" },
