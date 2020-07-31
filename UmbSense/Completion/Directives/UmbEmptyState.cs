@@ -12,8 +12,8 @@ namespace UmbSense.Completion.Directives
 
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { "size", "Set the size of the text " },
-            { "position", "Set the position of the text" }
+            { "size", "Set the size of the text." },
+            { "position", "Set the position of the text." }
         };
     }
 
@@ -23,7 +23,8 @@ namespace UmbSense.Completion.Directives
     {
         protected override Dictionary<string, List<string>> attribValues => new Dictionary<string, List<string>>()
         {
-            { "size", new List<string> { "small", "large" } }
+            { "size", new List<string> { "small", "large" } },
+            { "position", new List<string> { "center" } },
         };
     }
 }

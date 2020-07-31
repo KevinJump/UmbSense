@@ -12,9 +12,9 @@ namespace UmbSense.Completion.Directives
 
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { "direction", "The direction the prompt options" },
-            { "on-confirm", "The call back when the checkmark clicked" },
-            { "on-cancel", "The call back when the cross clicked" }
+            { "direction", "The direction the prompt opens." },
+            { "on-confirm", "The callback when the checkmark clicked." },
+            { "on-cancel", "The callback when the cross clicked." }
         };
     }
 
