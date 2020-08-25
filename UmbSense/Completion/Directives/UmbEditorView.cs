@@ -17,4 +17,24 @@ namespace UmbSense.Completion.Directives
             { UmbEditorFooter.TagName, "Use this directive to construct a footer inside the main editor window." }
         };
     }
+
+    [HtmlCompletionProvider(CompletionTypes.Attributes, UmbEditorView.TagName)]
+    [ContentType("htmlx")]
+    class UmbEditorViewAttributes : BaseCompletion
+    {
+        protected override Dictionary<string, string> values => new Dictionary<string, string>()
+        {
+            { "footer", "Set to display the footer." },
+        };
+    }
+
+    [HtmlCompletionProvider(CompletionTypes.Values, UmbEditorView.TagName, "*")]
+    [ContentType("htmlx")]
+    class UmbEditorViewValues : BaseValueCompletion
+    {
+        protected override Dictionary<string, List<string>> attribValues => new Dictionary<string, List<string>>()
+        {
+            { "footer", new List<string> { "true", "false" } },
+        };
+    }
 }
