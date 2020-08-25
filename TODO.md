@@ -42,12 +42,12 @@ Source code for the `umbraco.directives` can be found in the following places:
 - [ ] `umbDropdownItem`
 - [x] `umbEditorContainer`
 - [x] `umbEditorFooter`
-- [ ] `umbEditorFooterContentLeft`
-- [ ] `umbEditorFooterContentRight`
+- [x] `umbEditorFooterContentLeft`
+- [x] `umbEditorFooterContentRight`
 - [x] `umbEditorHeader`
 - [x] `umbEditorSubHeader`
-- [ ] `umbEditorSubHeaderContentLeft`
-- [ ] `umbEditorSubHeaderContentRight`
+- [x] `umbEditorSubHeaderContentLeft`
+- [x] `umbEditorSubHeaderContentRight`
 - [ ] `umbEditorSubHeaderSection`
 - [x] `umbEditorView`
 - [x] `umbEmptyState`
