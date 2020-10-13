@@ -1,0 +1,16 @@
+{
+    "name": "umbsense",
+    "displayName": "UmbSense",
+    "description": "Intellisense for Umbraco Html elements",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "contributes": {
+        "html": {
+            "customData": [
+                "./tags/umb-button.json"
+            ]
+        }
+    }
+}
