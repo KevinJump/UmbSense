@@ -16,7 +16,7 @@ Source code for the `umbraco.directives` can be found in the following places:
 
 - [x] `localize`
 - [x] `umbAvatar`
-- [ ] `umbBadge`
+- [x] `umbBadge`
 - [x] `umbBox`
 - [x] `umbBoxContent`
 - [x] `umbBoxHeader`
