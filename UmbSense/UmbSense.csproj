@@ -50,6 +50,7 @@
     <Compile Include="Completion\CompletionTypes.cs" />
     <Compile Include="Completion\Directives\Localize.cs" />
     <Compile Include="Completion\Directives\UmbCheckbox.cs" />
+    <Compile Include="Completion\Directives\UmbClipboard.cs" />
     <Compile Include="Completion\Directives\UmbCodeSnippet.cs" />
     <Compile Include="Completion\Directives\UmbPanel.cs" />
     <Compile Include="Completion\Directives\UmbPane.cs" />

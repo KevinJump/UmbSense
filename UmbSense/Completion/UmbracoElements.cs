@@ -18,6 +18,7 @@ namespace UmbSense.Completion
             { UmbButton.TagName, "Use this directive to render an Umbraco button. The directive can be used to generate all types of buttons, set type, style, translation, shortcut and much more." },
             { UmbButtonGroup.TagName, "Use this directive to render a button with a dropdown of alternative actions." },
             { UmbChildSelector.TagName, "Use this directive to render a ui component for selecting child items to a parent node." },
+            { UmbClipboard.TagName, "Use this directive to copy content to the clipboard" },
             { UmbCheckbox.TagName, "Use this directive to render an Umbraco checkbox" },
             { UmbCodeSnippet.TagName, "Use this directive to render a code snippet." },
             { UmbConfirm.TagName, "A confirmation dialog" },
