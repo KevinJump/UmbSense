@@ -13,6 +13,7 @@ namespace UmbSense.Completion
         {
             { Localize.TagName, "Localize a specific token to put into the HTML as an item." },
             { UmbAvatar.TagName, "Use this directive to render an avatar." },
+            { UmbBadge.TagName, "Use this directive to render a badge." },
             { UmbBox.TagName,  "Use this directive to render an already styled empty div tag." },
             { UmbBreadcrumbs.TagName, "Use this directive to generate a list of breadcrumbs." },
             { UmbButton.TagName, "Use this directive to render an Umbraco button. The directive can be used to generate all types of buttons, set type, style, translation, shortcut and much more." },
