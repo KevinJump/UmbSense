@@ -12,7 +12,7 @@ namespace UmbSense.Completion.Directives
 
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { "key", "placeholder from xml file" }
+            { "key", "Localize a specific token to put into the HTML as an item." }
         };
     }
 
@@ -22,7 +22,7 @@ namespace UmbSense.Completion.Directives
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { "localize", "placeholder from xml file" }
+            { Localize.TagName, "Add a HTML attribute to an element containing the HTML attribute name you wish to localise Using the format of '@section_key' or 'section_key'." }
         };
     }
 }
