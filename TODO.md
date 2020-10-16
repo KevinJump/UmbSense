@@ -25,7 +25,7 @@ Source code for the `umbraco.directives` can be found in the following places:
 - [x] `umbButtonGroup`
 - [x] `umbCheckbox`
 - [x] `umbChildSelector`
-- [ ] `umbClipboard`
+- [x] `umbClipboard`
 - [x] `umbCodeSnippet`
 - [x] `umbColorSwatches`
 - [x] `umbConfirm`
