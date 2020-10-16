@@ -24,6 +24,7 @@ namespace UmbSense.Completion
             { UmbConfirmAction.TagName, "Use this directive to toggle a confirmation prompt for an action." },
             { UmbContentGrid.TagName, "Use this directive to generate a list of content items presented as a flexbox grid." },
             { UmbColorSwatches.TagName, "Use this directive to generate color swatches to pick from." },
+            { UmbDateTimePicker.TagName, "Use this directive to render a date time picker" },
             { UmbEditorView.TagName, "Use this directive to construct the main editor window." },
             { UmbEmptyState.TagName, "Use this directive to show an empty state message." },
             { UmbNodePreview.TagName, "Use this directive to render a node preview." },

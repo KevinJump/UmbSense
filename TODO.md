@@ -32,7 +32,7 @@ Source code for the `umbraco.directives` can be found in the following places:
 - [x] `umbConfirmAction`
 - [x] `umbContentGrid`
 - [ ] `umbControlGroup`
-- [ ] `umbDateTimePicker`
+- [x] `umbDateTimePicker`
 - [ ] `umbDrawer`
 - [ ] `umbDrawerContent`
 - [ ] `umbDrawerFooter`
