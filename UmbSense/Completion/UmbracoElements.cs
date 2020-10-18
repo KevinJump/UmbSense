@@ -28,6 +28,11 @@ namespace UmbSense.Completion
             { UmbControlGroup.TagName, "" },
             { UmbColorSwatches.TagName, "Use this directive to generate color swatches to pick from." },
             { UmbDateTimePicker.TagName, "Use this directive to render a date time picker" },
+            { UmbDrawer.TagName, "Drawer component is a global component and is already added to the umbraco markup. It is registered in globalState and can be opened and configured by raising events." },
+            { UmbDrawerContent.TagName, "Use this directive to render drawer content." },
+            { UmbDrawerFooter.TagName, "Use this directive to render a drawer footer." },
+            { UmbDrawerHeader.TagName, "Use this directive to render a drawer header." },
+            { UmbDrawerView.TagName, "Use this directive to render drawer view." },
             { UmbEditorView.TagName, "Use this directive to construct the main editor window." },
             { UmbEmptyState.TagName, "Use this directive to show an empty state message." },
             { UmbNodePreview.TagName, "Use this directive to render a node preview." },
@@ -39,3 +44,4 @@ namespace UmbSense.Completion
         };
     }
 }
+
