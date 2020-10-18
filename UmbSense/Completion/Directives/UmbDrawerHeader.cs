@@ -16,8 +16,8 @@ namespace UmbSense.Completion.Directives
 
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { "title", "Set a drawer title" },
-            { "description", "Set a drawer description" }
+            { "title", "Set a drawer title." },
+            { "description", "Set a drawer description." }
         };
     }
 }
