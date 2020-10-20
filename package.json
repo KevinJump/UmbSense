@@ -11,6 +11,9 @@
             "customData": [
                 "./tags/umb-avatar.html-data.json",
                 "./tags/umb-badge.html-data.json",
+                "./tags/umb-box.html-data.json",
+                "./tags/umb-box-content.html-data.json",
+                "./tags/umb-box-header.html-data.json",
                 "./tags/umb-button.html-data.json"
             ]
         }

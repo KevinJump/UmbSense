@@ -4,7 +4,7 @@
     "tags": [
         {
             "name": "umb-button",
-            "description": "### Umbraco button \n\n Usage: \n\n ```html \n <umb-button action='{string}'></umb-button> \n ```\n\n Required properties: `action`",
+            "description": "### Umbraco button \n\n ```html \n Usage: <umb-button action='{string}'></umb-button> \n ```\n\n Required properties: `action`",
             "attributes": [
                 {
                     "name": "action",

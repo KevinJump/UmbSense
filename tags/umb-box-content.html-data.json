@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vscode-html-languageservice/master/docs/customData.schema.json",
+    "version": 1.1,
+    "tags": [
+        {
+            "name": "umb-box-content",
+            "description": "### Umbraco box content \n\n ```html \n Usage: <umb-box-content></umb-box-content> \n ```",
+            "references": [
+                {
+                    "name": "Umbraco API Docs V8 > Umbraco box content directive `umbBoxContent`",
+                    "url": "https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbBoxContent"
+                }
+            ]
+        }
+    ]
+}
