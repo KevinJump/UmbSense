@@ -97,7 +97,13 @@
                 },
                 {
                     "name": "hasPopup",
-                    "description": "Used to expose to the accessibility API whether the button will trigger a popup or not \n\n Type: `boolean`"
+                    "description": "Used to expose to the accessibility API whether the button will trigger a popup or not \n\n Type: `boolean`",
+                    "references": [
+                        {
+                            "name": "Accessible Rich Internet Applications (WAI-ARIA) 1.0 > aria-haspopup",
+                            "url": "https://www.w3.org/WAI/PF/aria/states_and_properties#aria-haspopup"
+                        }
+                    ]
                 },
                 {
                     "name": "isExpanded",
