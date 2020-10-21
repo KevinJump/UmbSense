@@ -63,6 +63,7 @@
     <Compile Include="Completion\Directives\UmbDropdown.cs" />
     <Compile Include="Completion\Directives\UmbDropdownItem.cs" />
     <Compile Include="Completion\Directives\UmbFileDropzone.cs" />
+    <Compile Include="Completion\Directives\UmbFileIcon.cs" />
     <Compile Include="Completion\Directives\UmbKeyboardList.cs" />
     <Compile Include="Completion\Directives\UmbPanel.cs" />
     <Compile Include="Completion\Directives\UmbPane.cs" />

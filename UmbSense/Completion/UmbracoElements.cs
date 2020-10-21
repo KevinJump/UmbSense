@@ -33,6 +33,7 @@ namespace UmbSense.Completion
             { UmbEditorView.TagName, "Use this directive to construct the main editor window." },
             { UmbEmptyState.TagName, "Use this directive to show an empty state message." },
             { UmbFileDropzone.TagName, "" },
+            { UmbFileIcon.TagName, "Use this directive to render a file icon." },
             { UmbNodePreview.TagName, "Use this directive to render a node preview." },
             { UmbPane.TagName, "" },
             { UmbPanel.TagName, "" },
