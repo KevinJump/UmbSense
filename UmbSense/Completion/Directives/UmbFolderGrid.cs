@@ -14,8 +14,8 @@ namespace UmbSense.Completion.Directives
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { "folders", "Array of folders" },
-            { "onClick", "Callback method to handle click events on the folder." },
-            { "onSelect", "Callback method to handle click events on the checkmark icon." }
+            { "on-click", "Callback method to handle click events on the folder." },
+            { "on-select", "Callback method to handle click events on the checkmark icon." }
         };
     }
 }

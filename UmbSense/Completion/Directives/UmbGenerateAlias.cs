@@ -12,9 +12,9 @@ namespace UmbSense.Completion.Directives
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
             { "alias", "The model where the alias is bound." },
-            { "aliasFrom", "The model to generate the alias from." },
-            { "validationPosition", "The position of the validation. Set to 'left' or 'right'." },
-            { "enableLock", "Set to true to add a lock next to the alias from where it can be unlocked and changed." }
+            { "alias-from", "The model to generate the alias from." },
+            { "validation-position", "The position of the validation. Set to 'left' or 'right'." },
+            { "enable-lock", "Set to true to add a lock next to the alias from where it can be unlocked and changed." }
         };
     }
 
@@ -25,8 +25,8 @@ namespace UmbSense.Completion.Directives
     {
         protected override Dictionary<string, List<string>> attribValues => new Dictionary<string, List<string>>()
         {
-            { "validationPosition", new List<string> { "left", "right" } },
-            { "enableLock", new List<string> { "true", "false" } }
+            { "validation-position", new List<string> { "left", "right" } },
+            { "enable-lock", new List<string> { "true", "false" } }
         };
     }
 }

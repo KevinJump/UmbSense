@@ -18,10 +18,10 @@ namespace UmbSense.Completion.Directives
         {
             { "label", "The label for the control group field." },
             { "description", "The description for the control group field." },
-            { "hideLabel", "Set to true to hide the label." },
+            { "hide-label", "Set to true to hide the label." },
             { "alias", "The alias of the field within the control group." },
-            { "labelFor", "The alias of the field that the label is for, used for validation." },
-            { "required", "Set to true to mark the field as required." },
+            { "label-for", "The alias of the field that the label is for, used for validation." },
+            { "required", "Set to true to mark the field as required." }
         };
     }
 
@@ -31,7 +31,7 @@ namespace UmbSense.Completion.Directives
     {
         protected override Dictionary<string, List<string>> attribValues => new Dictionary<string, List<string>>()
         {
-            { "hideLabel", new List<string> { "true", "false" } },
+            { "hide-label", new List<string> { "true", "false" } },
             { "required", new List<string> { "true", "false" } }
         };
     }
