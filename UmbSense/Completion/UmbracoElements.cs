@@ -35,6 +35,7 @@ namespace UmbSense.Completion
             { UmbFileDropzone.TagName, "" },
             { UmbFileIcon.TagName, "Use this directive to render a file icon." },
             { UmbFileUpload.TagName, "Listens for file input control changes and emits events when files are selected for use in other controllers." },
+            { UmbFolderGrid.TagName, "Use this directive to generate a list of folders presented as a flexbox grid." },
             { UmbNodePreview.TagName, "Use this directive to render a node preview." },
             { UmbPane.TagName, "" },
             { UmbPanel.TagName, "" },

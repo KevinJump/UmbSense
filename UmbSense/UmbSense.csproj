@@ -65,6 +65,7 @@
     <Compile Include="Completion\Directives\UmbFileDropzone.cs" />
     <Compile Include="Completion\Directives\UmbFileIcon.cs" />
     <Compile Include="Completion\Directives\UmbFileUpload.cs" />
+    <Compile Include="Completion\Directives\UmbFolderGrid.cs" />
     <Compile Include="Completion\Directives\UmbKeyboardList.cs" />
     <Compile Include="Completion\Directives\UmbPanel.cs" />
     <Compile Include="Completion\Directives\UmbPane.cs" />
