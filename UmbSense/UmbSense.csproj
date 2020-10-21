@@ -99,6 +99,7 @@
     <Compile Include="Completion\Directives\UmbEmptyState.cs" />
     <Compile Include="Completion\Directives\UmbProgressBar.cs" />
     <Compile Include="Completion\Directives\UmbProgressCircle.cs" />
+    <Compile Include="Completion\Directives\UmbProperty.cs" />
     <Compile Include="Completion\Directives\UmbTable.cs" />
     <Compile Include="Completion\Directives\UmbAvatar.cs" />
     <Compile Include="Completion\Directives\UmbTooltip.cs" />
