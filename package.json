@@ -9,7 +9,7 @@
     "contributes": {
         "html": {
             "customData": [
-                "./tags/umb-button.json"
+                "./tags/umb-button.html-data.json"
             ]
         }
     }
