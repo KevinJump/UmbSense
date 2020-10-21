@@ -55,6 +55,14 @@
     <Compile Include="Completion\Directives\UmbCodeSnippet.cs" />
     <Compile Include="Completion\Directives\UmbControlGroup.cs" />
     <Compile Include="Completion\Directives\umbDateTimePicker.cs" />
+    <Compile Include="Completion\Directives\UmbDrawer.cs" />
+    <Compile Include="Completion\Directives\UmbDrawerContent.cs" />
+    <Compile Include="Completion\Directives\UmbDrawerFooter.cs" />
+    <Compile Include="Completion\Directives\UmbDrawerHeader.cs" />
+    <Compile Include="Completion\Directives\UmbDrawerView.cs" />
+    <Compile Include="Completion\Directives\UmbDropdown.cs" />
+    <Compile Include="Completion\Directives\UmbDropdownItem.cs" />
+    <Compile Include="Completion\Directives\UmbKeyboardList.cs" />
     <Compile Include="Completion\Directives\UmbPanel.cs" />
     <Compile Include="Completion\Directives\UmbPane.cs" />
     <Compile Include="Completion\Directives\UmbColorSwatches.cs" />
