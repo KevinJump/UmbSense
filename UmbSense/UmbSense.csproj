@@ -68,6 +68,7 @@
     <Compile Include="Completion\Directives\UmbFolderGrid.cs" />
     <Compile Include="Completion\Directives\UmbGenerateAlias.cs" />
     <Compile Include="Completion\Directives\UmbKeyboardList.cs" />
+    <Compile Include="Completion\Directives\UmbLockedField.cs" />
     <Compile Include="Completion\Directives\UmbPanel.cs" />
     <Compile Include="Completion\Directives\UmbPane.cs" />
     <Compile Include="Completion\Directives\UmbColorSwatches.cs" />

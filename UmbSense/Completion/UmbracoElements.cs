@@ -37,6 +37,7 @@ namespace UmbSense.Completion
             { UmbFileUpload.TagName, "Listens for file input control changes and emits events when files are selected for use in other controllers." },
             { UmbFolderGrid.TagName, "Use this directive to generate a list of folders presented as a flexbox grid." },
             { UmbGenerateAlias.TagName, "Use this directive to generate a camelCased umbraco alias. When the aliasFrom value is changed the directive will get a formatted alias from the server and update the alias model. If \"enableLock\" is set to true the directive will use umbLockedField to lock and unlock the alias." },
+            { UmbLockedField.TagName, "Use this directive to render a value with a lock next to it. When the lock is clicked the value gets unlocked and can be edited." },
             { UmbNodePreview.TagName, "Use this directive to render a node preview." },
             { UmbPane.TagName, "" },
             { UmbPanel.TagName, "" },
