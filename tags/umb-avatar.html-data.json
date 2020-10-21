@@ -4,7 +4,7 @@
     "tags": [
         {
             "name": "umb-avatar",
-            "description": "### Umbraco avatar \n\n Usage: \n\n ```html \n <umb-avatar \n    size='{string}' \n    img-src='{string}' \n    img-srcset='{string}'>\n</umb-avatar> \n ```\n\n Required properties: `size`, `img-src`, `img-srcset`",
+            "description": "### Umbraco avatar \n\n Usage: \n\n ```html \n <umb-avatar \n    size='{string}' \n    img-src='{string}' \n    img-srcset='{string}'>\n</umb-avatar> \n ```",
             "attributes": [
                 {
                     "name": "size",

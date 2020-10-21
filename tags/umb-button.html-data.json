@@ -4,11 +4,11 @@
     "tags": [
         {
             "name": "umb-button",
-            "description": "### Umbraco button \n\n ```html \n Usage: <umb-button action='{string}'></umb-button> \n ```\n\n Required properties: `action`",
+            "description": "### Umbraco button \n\n Usage: \n\n ```html \n <umb-button \n    action='{callback}' \n    [href='{string}'] \n    [type='{string}'] \n    [button-style='{string}'] \n    [state='{string}'] \n    [shortcut='{string}'] \n    [label='{string}'] \n    [label-key='{string}'] \n    [icon='{string}'] \n    [size='{string}'] \n    [disabled='{boolean}'] \n    [add-ellipsis='{boolean}'] \n    [show-caret='{boolean}'] \n    [auto-focus='{boolean}'] \n    [has-popup='{boolean}'] \n    [is-expanded='{boolean}']>\n</umb-button> \n ```",
             "attributes": [
                 {
                     "name": "action",
-                    "description": "The button action which should be performed when the button is clicked. \n\n Type: `string`"
+                    "description": "The button action which should be performed when the button is clicked. \n\n Type: `callback function`"
                 },
                 {
                     "name": "href",

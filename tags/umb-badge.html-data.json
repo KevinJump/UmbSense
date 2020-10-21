@@ -4,7 +4,7 @@
     "tags": [
         {
             "name": "umb-badge",
-            "description": "### Umbraco badge \n\n Usage: \n\n ```html \n <umb-badge \n    size='{string}' \n    color='{string}'>\n</umb-badge> \n ```\n\n Required properties: `size`, `color`",
+            "description": "### Umbraco badge \n\n Usage: \n\n ```html \n <umb-badge \n    size='{string}' \n    color='{string}'>\n</umb-badge> \n ```",
             "attributes": [
                 {
                     "name": "size",
@@ -29,7 +29,27 @@
                 },
                 {
                     "name": "color",
-                    "description": "The color of the highlight. \n\n Examples: `primary`, `secondary`, `success`, `warning`, `danger`, `gray` \n\n Type: `string`"
+                    "description": "The color of the highlight. \n\n Examples: `primary`, `secondary`, `success`, `warning`, `danger`, `gray` \n\n Type: `string`",
+                    "values": [
+                        {
+                            "name": "danger"
+                        },
+                        {
+                            "name": "gray"
+                        },
+                        {
+                            "name": "primary"
+                        },
+                        {
+                            "name": "secondary"
+                        },
+                        {
+                            "name": "success"
+                        },
+                        {
+                            "name": "warning"
+                        }
+                    ]
                 }
             ],
             "references": [

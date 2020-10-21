@@ -4,7 +4,7 @@
     "tags": [
         {
             "name": "umb-box-header",
-            "description": "### Umbraco box header \n\n ```html \n Usage: <umb-box-header></umb-box-header> \n ```",
+            "description": "### Umbraco box header \n\n Usage: \n\n ```html \n <umb-box-header \n    [title='{string}'] \n    [title-key='{string}'] \n    [description='{string}'] \n    [description-key='{string}']>\n</umb-box-header> \n ```",
             "attributes": [
                 {
                     "name": "title",
