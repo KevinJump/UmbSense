@@ -32,6 +32,7 @@ namespace UmbSense.Completion
             { UmbDropdown.TagName, "Use this component to render a dropdown menu." },
             { UmbEditorView.TagName, "Use this directive to construct the main editor window." },
             { UmbEmptyState.TagName, "Use this directive to show an empty state message." },
+            { UmbFileDropzone.TagName, "" },
             { UmbNodePreview.TagName, "Use this directive to render a node preview." },
             { UmbPane.TagName, "" },
             { UmbPanel.TagName, "" },
