@@ -43,6 +43,7 @@ namespace UmbSense.Completion
             { UmbKeyboardShortcutsOverview.TagName, "Use this directive to show an overview of keyboard shortcuts in an editor. The directive will render an overview trigger wich shows how the overview is opened. When this combination is hit an overview is opened with shortcuts based on the model sent to the directive." },
             { UmbLightbox.TagName, "Use this directive to open a gallery in a lightbox overlay." },
             { UmbLoader.TagName, "Use this directive to generate a loading indicator." },
+            { UmbLoadIndicator.TagName, "Use this directive to generate a loading indicator." },
             { UmbLockedField.TagName, "Use this directive to render a value with a lock next to it. When the lock is clicked the value gets unlocked and can be edited." },
             { UmbNodePreview.TagName, "Use this directive to render a node preview." },
             { UmbPane.TagName, "" },
