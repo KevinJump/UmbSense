@@ -39,6 +39,7 @@ namespace UmbSense.Completion
             { UmbGenerateAlias.TagName, "Use this directive to generate a camelCased umbraco alias. When the aliasFrom value is changed the directive will get a formatted alias from the server and update the alias model. If \"enableLock\" is set to true the directive will use umbLockedField to lock and unlock the alias." },
             { UmbImageCrop.TagName, "" },
             { UmbImageLazyLoad.TagName, "Use this directive to lazy-load an image only when it is scrolled into view." },
+            { UmbImageThumbnail.TagName, "" },
             { UmbLockedField.TagName, "Use this directive to render a value with a lock next to it. When the lock is clicked the value gets unlocked and can be edited." },
             { UmbNodePreview.TagName, "Use this directive to render a node preview." },
             { UmbPane.TagName, "" },
