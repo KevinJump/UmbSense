@@ -52,6 +52,7 @@ namespace UmbSense.Completion
             { UmbPane.TagName, "" },
             { UmbPanel.TagName, "" },
             { UmbProgressBar.TagName, "Use this directive to generate a progress bar." },
+            { UmbProgressCircle.TagName, "Use this directive to render a circular progressbar." },
             { UmbTable.TagName, "Use this directive to render a data table." },
             { UmbToggle.TagName, "Use this directive to render an umbraco toggle." },
             { UmbTooltip.TagName, "Use this directive to render a tooltip." },
