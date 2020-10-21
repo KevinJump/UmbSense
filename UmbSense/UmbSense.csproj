@@ -71,6 +71,7 @@
     <Compile Include="Completion\Directives\UmbImageLazyLoad.cs" />
     <Compile Include="Completion\Directives\UmbImageThumbnail.cs" />
     <Compile Include="Completion\Directives\UmbKeyboardList.cs" />
+    <Compile Include="Completion\Directives\UmbKeyboardShortcutsOverview.cs" />
     <Compile Include="Completion\Directives\UmbLockedField.cs" />
     <Compile Include="Completion\Directives\UmbPanel.cs" />
     <Compile Include="Completion\Directives\UmbPane.cs" />
