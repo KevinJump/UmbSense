@@ -78,6 +78,7 @@
     <Compile Include="Completion\Directives\UmbLockedField.cs" />
     <Compile Include="Completion\Directives\UmbMediaGrid.cs" />
     <Compile Include="Completion\Directives\UmbNavigation.cs" />
+    <Compile Include="Completion\Directives\UmbPagination.cs" />
     <Compile Include="Completion\Directives\UmbPanel.cs" />
     <Compile Include="Completion\Directives\UmbPane.cs" />
     <Compile Include="Completion\Directives\UmbColorSwatches.cs" />

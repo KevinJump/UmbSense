@@ -48,6 +48,7 @@ namespace UmbSense.Completion
             { UmbMediaGrid.TagName, "Use this directive to generate a thumbnail grid of media items." },
             { UmbNavigation.TagName, "" },
             { UmbNodePreview.TagName, "Use this directive to render a node preview." },
+            { UmbPagination.TagName, "Use this directive to generate a pagination." },
             { UmbPane.TagName, "" },
             { UmbPanel.TagName, "" },
             { UmbTable.TagName, "Use this directive to render a data table." },
