@@ -41,6 +41,7 @@ namespace UmbSense.Completion
             { UmbImageLazyLoad.TagName, "Use this directive to lazy-load an image only when it is scrolled into view." },
             { UmbImageThumbnail.TagName, "" },
             { UmbKeyboardShortcutsOverview.TagName, "Use this directive to show an overview of keyboard shortcuts in an editor. The directive will render an overview trigger wich shows how the overview is opened. When this combination is hit an overview is opened with shortcuts based on the model sent to the directive." },
+            { UmbLightbox.TagName, "Use this directive to open a gallery in a lightbox overlay." },
             { UmbLockedField.TagName, "Use this directive to render a value with a lock next to it. When the lock is clicked the value gets unlocked and can be edited." },
             { UmbNodePreview.TagName, "Use this directive to render a node preview." },
             { UmbPane.TagName, "" },
