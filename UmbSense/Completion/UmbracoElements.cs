@@ -45,6 +45,7 @@ namespace UmbSense.Completion
             { UmbLoader.TagName, "Use this directive to generate a loading indicator." },
             { UmbLoadIndicator.TagName, "Use this directive to generate a loading indicator." },
             { UmbLockedField.TagName, "Use this directive to render a value with a lock next to it. When the lock is clicked the value gets unlocked and can be edited." },
+            { UmbMediaGrid.TagName, "Use this directive to generate a thumbnail grid of media items." },
             { UmbNodePreview.TagName, "Use this directive to render a node preview." },
             { UmbPane.TagName, "" },
             { UmbPanel.TagName, "" },
