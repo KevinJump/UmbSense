@@ -34,6 +34,7 @@ namespace UmbSense.Completion
             { UmbEmptyState.TagName, "Use this directive to show an empty state message." },
             { UmbFileDropzone.TagName, "" },
             { UmbFileIcon.TagName, "Use this directive to render a file icon." },
+            { UmbFileUpload.TagName, "Listens for file input control changes and emits events when files are selected for use in other controllers." },
             { UmbNodePreview.TagName, "Use this directive to render a node preview." },
             { UmbPane.TagName, "" },
             { UmbPanel.TagName, "" },
