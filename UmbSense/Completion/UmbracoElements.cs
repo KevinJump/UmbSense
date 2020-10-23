@@ -61,6 +61,7 @@ namespace UmbSense.Completion
             { UmbSingleFileUpload.TagName, "A single file upload field that will reset itself based on the object passed in for the rebuild parameter. This is required because the only way to reset an upload control is to replace it's html." },
             { UmbTabContent.TagName, "Use this directive to render tab content. For an example see: umbTabContent" },
             { UmbTable.TagName, "Use this directive to render a data table." },
+            { UmbTabsNav.TagName, "Use this directive to render a tabs navigation." },
             { UmbToggle.TagName, "Use this directive to render an umbraco toggle." },
             { UmbTooltip.TagName, "Use this directive to render a tooltip." },
         };
