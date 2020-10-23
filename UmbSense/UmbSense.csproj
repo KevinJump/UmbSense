@@ -104,6 +104,7 @@
     <Compile Include="Completion\Directives\UmbRadioButton.cs" />
     <Compile Include="Completion\Directives\UmbRangeSlider.cs" />
     <Compile Include="Completion\Directives\UmbSections.cs" />
+    <Compile Include="Completion\Directives\UmbSingleFileUpload.cs" />
     <Compile Include="Completion\Directives\UmbTable.cs" />
     <Compile Include="Completion\Directives\UmbAvatar.cs" />
     <Compile Include="Completion\Directives\UmbTooltip.cs" />

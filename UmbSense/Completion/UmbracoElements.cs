@@ -58,6 +58,7 @@ namespace UmbSense.Completion
             { UmbRadioButton.TagName, "Use this directive to render an umbraco radio button." },
             { UmbRangeSlider.TagName, "This directive is a wrapper of the noUiSlider library. Use it to render a slider. For extra details about options and events take a look here: https://refreshless.com/nouislider/" },
             { UmbSections.TagName, "" },
+            { UmbSingleFileUpload.TagName, "A single file upload field that will reset itself based on the object passed in for the rebuild parameter. This is required because the only way to reset an upload control is to replace it's html." },
             { UmbTable.TagName, "Use this directive to render a data table." },
             { UmbToggle.TagName, "Use this directive to render an umbraco toggle." },
             { UmbTooltip.TagName, "Use this directive to render a tooltip." },
