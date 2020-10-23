@@ -56,6 +56,7 @@ namespace UmbSense.Completion
             { UmbProperty.TagName, "" },
             { UmbPropertyEditor.TagName, "" },
             { UmbRadioButton.TagName, "Use this directive to render an umbraco radio button." },
+            { UmbRangeSlider.TagName, "This directive is a wrapper of the noUiSlider library. Use it to render a slider. For extra details about options and events take a look here: https://refreshless.com/nouislider/" },
             { UmbTable.TagName, "Use this directive to render a data table." },
             { UmbToggle.TagName, "Use this directive to render an umbraco toggle." },
             { UmbTooltip.TagName, "Use this directive to render a tooltip." },

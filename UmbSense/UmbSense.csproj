@@ -102,6 +102,7 @@
     <Compile Include="Completion\Directives\UmbProperty.cs" />
     <Compile Include="Completion\Directives\UmbPropertyEditor.cs" />
     <Compile Include="Completion\Directives\UmbRadioButton.cs" />
+    <Compile Include="Completion\Directives\UmbRangeSlider.cs" />
     <Compile Include="Completion\Directives\UmbTable.cs" />
     <Compile Include="Completion\Directives\UmbAvatar.cs" />
     <Compile Include="Completion\Directives\UmbTooltip.cs" />
