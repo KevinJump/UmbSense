@@ -106,6 +106,7 @@
     <Compile Include="Completion\Directives\UmbSections.cs" />
     <Compile Include="Completion\Directives\UmbSingleFileUpload.cs" />
     <Compile Include="Completion\Directives\UmbStickyBar.cs" />
+    <Compile Include="Completion\Directives\UmbTabContent.cs" />
     <Compile Include="Completion\Directives\UmbTable.cs" />
     <Compile Include="Completion\Directives\UmbAvatar.cs" />
     <Compile Include="Completion\Directives\UmbTooltip.cs" />
