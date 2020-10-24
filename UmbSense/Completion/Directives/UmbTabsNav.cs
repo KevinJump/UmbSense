@@ -8,7 +8,7 @@ namespace UmbSense.Completion.Directives
     [ContentType("htmlx")]
     class UmbTabsNav : BaseCompletion
     {
-        internal const string TagName = "umb-tas-nav";
+        internal const string TagName = "umb-tabs-nav";
 
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
