@@ -65,6 +65,7 @@ namespace UmbSense.Completion
             { UmbToggle.TagName, "Use this directive to render an umbraco toggle." },
             { UmbToggleGroup.TagName, "Use this directive to render a group of toggle buttons." },
             { UmbTooltip.TagName, "Use this directive to render a tooltip." },
+            { UmbTour.TagName, "The tour component is a global component and is already added to the umbraco markup." }
         };
     }
 }

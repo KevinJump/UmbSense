@@ -115,6 +115,7 @@
     <Compile Include="Completion\Directives\UmbTooltip.cs" />
     <Compile Include="Completion\Directives\UmbNodePreview.cs" />
     <Compile Include="Completion\Directives\UmbToggle.cs" />
+    <Compile Include="Completion\Directives\UmbTour.cs" />
     <Compile Include="Completion\UmbracoElements.cs" />
     <Compile Include="Images.imagemanifest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
