@@ -111,6 +111,7 @@
     <Compile Include="Completion\Directives\UmbAvatar.cs" />
     <Compile Include="Completion\Directives\UmbTabsNav.cs" />
     <Compile Include="Completion\Directives\UmbTagsEditor.cs" />
+    <Compile Include="Completion\Directives\UmbToggleGroup.cs" />
     <Compile Include="Completion\Directives\UmbTooltip.cs" />
     <Compile Include="Completion\Directives\UmbNodePreview.cs" />
     <Compile Include="Completion\Directives\UmbToggle.cs" />

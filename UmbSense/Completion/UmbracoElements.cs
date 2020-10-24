@@ -63,6 +63,7 @@ namespace UmbSense.Completion
             { UmbTable.TagName, "Use this directive to render a data table." },
             { UmbTabsNav.TagName, "Use this directive to render a tabs navigation." },
             { UmbToggle.TagName, "Use this directive to render an umbraco toggle." },
+            { UmbToggleGroup.TagName, "Use this directive to render a group of toggle buttons." },
             { UmbTooltip.TagName, "Use this directive to render a tooltip." },
         };
     }
