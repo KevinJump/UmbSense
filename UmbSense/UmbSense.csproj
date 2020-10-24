@@ -121,6 +121,7 @@
     <Compile Include="Completion\Directives\UmbTourStepCounter.cs" />
     <Compile Include="Completion\Directives\UmbTourStepFooter.cs" />
     <Compile Include="Completion\Directives\UmbTourStepHeader.cs" />
+    <Compile Include="Completion\Directives\UmbTree.cs" />
     <Compile Include="Completion\UmbracoElements.cs" />
     <Compile Include="Images.imagemanifest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -66,7 +66,8 @@ namespace UmbSense.Completion
             { UmbToggleGroup.TagName, "Use this directive to render a group of toggle buttons." },
             { UmbTooltip.TagName, "Use this directive to render a tooltip." },
             { UmbTour.TagName, "The tour component is a global component and is already added to the umbraco markup." },
-            { UmbTourStep.TagName, "The tour step component is a component that can be used in custom views for tour steps." }
+            { UmbTourStep.TagName, "The tour step component is a component that can be used in custom views for tour steps." },
+            { UmbTree.TagName, "" }
         };
     }
 }
