@@ -125,6 +125,7 @@
     <Compile Include="Completion\Directives\UmbTreeItem.cs" />
     <Compile Include="Completion\Directives\UmbTreeSearchBox.cs" />
     <Compile Include="Completion\Directives\UmbTreeSearchResults.cs" />
+    <Compile Include="Completion\Directives\UmbUserGroupPreview.cs" />
     <Compile Include="Completion\UmbracoElements.cs" />
     <Compile Include="Images.imagemanifest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

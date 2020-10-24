@@ -70,7 +70,8 @@ namespace UmbSense.Completion
             { UmbTree.TagName, "" },
             { UmbTreeItem.TagName, "Renders a list item, representing a single node in the tree. Includes element to toggle children, and a menu toggling button" },
             { UmbTreeSearchBox.TagName, "" },
-            { UmbTreeSearchResults.TagName, "" }
+            { UmbTreeSearchResults.TagName, "" },
+            { UmbUserGroupPreview.TagName, "Use this directive to render a user group preview, where you can see the permissions the user or group has in the back office." }
         };
     }
 }
