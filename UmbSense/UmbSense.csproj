@@ -116,6 +116,11 @@
     <Compile Include="Completion\Directives\UmbNodePreview.cs" />
     <Compile Include="Completion\Directives\UmbToggle.cs" />
     <Compile Include="Completion\Directives\UmbTour.cs" />
+    <Compile Include="Completion\Directives\UmbTourStep.cs" />
+    <Compile Include="Completion\Directives\UmbTourStepContent.cs" />
+    <Compile Include="Completion\Directives\UmbTourStepCounter.cs" />
+    <Compile Include="Completion\Directives\UmbTourStepFooter.cs" />
+    <Compile Include="Completion\Directives\UmbTourStepHeader.cs" />
     <Compile Include="Completion\UmbracoElements.cs" />
     <Compile Include="Images.imagemanifest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
