@@ -68,7 +68,8 @@ namespace UmbSense.Completion
             { UmbTour.TagName, "The tour component is a global component and is already added to the umbraco markup." },
             { UmbTourStep.TagName, "The tour step component is a component that can be used in custom views for tour steps." },
             { UmbTree.TagName, "" },
-            { UmbTreeItem.TagName, "Renders a list item, representing a single node in the tree. Includes element to toggle children, and a menu toggling button" }
+            { UmbTreeItem.TagName, "Renders a list item, representing a single node in the tree. Includes element to toggle children, and a menu toggling button" },
+            { UmbTreeSearchBox.TagName, "" }
         };
     }
 }
