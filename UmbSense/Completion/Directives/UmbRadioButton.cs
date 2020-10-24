@@ -28,7 +28,7 @@ namespace UmbSense.Completion.Directives
         };
     }
 
-    [HtmlCompletionProvider(CompletionTypes.Values, UmbRadioButton.TagName)]
+    [HtmlCompletionProvider(CompletionTypes.Values, UmbRadioButton.TagName, "*")]
     [ContentType("htmlx")]
     class UmbRadioButtonValues : BaseValueCompletion
     {
