@@ -146,6 +146,7 @@
     <Compile Include="Completion\Directives\ValServer.cs" />
     <Compile Include="Completion\Directives\ValServerField.cs" />
     <Compile Include="Completion\Directives\ValServerMatch.cs" />
+    <Compile Include="Completion\Directives\ValSubView.cs" />
     <Compile Include="Completion\UmbracoElements.cs" />
     <Compile Include="Images.imagemanifest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
