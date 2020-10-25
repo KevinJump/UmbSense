@@ -4,11 +4,11 @@
     "tags": [
         {
             "name": "umb-button",
-            "description": "### Umbraco button \n\n Usage: \n\n ```html \n <umb-button action='{string}'></umb-button> \n ```\n\n Required properties: `action`",
+            "description": "### Umbraco button \n\n Usage: \n\n ```html \n <umb-button \n    action='{callback}' \n    [href='{string}'] \n    [type='{string}'] \n    [button-style='{string}'] \n    [state='{string}'] \n    [shortcut='{string}'] \n    [label='{string}'] \n    [label-key='{string}'] \n    [icon='{string}'] \n    [size='{string}'] \n    [disabled='{boolean}'] \n    [add-ellipsis='{boolean}'] \n    [show-caret='{boolean}'] \n    [auto-focus='{boolean}'] \n    [has-popup='{boolean}'] \n    [is-expanded='{boolean}']>\n</umb-button> \n ```",
             "attributes": [
                 {
                     "name": "action",
-                    "description": "The button action which should be performed when the button is clicked. \n\n Type: `string`"
+                    "description": "The button action which should be performed when the button is clicked. \n\n Type: `callback function`"
                 },
                 {
                     "name": "href",
@@ -18,33 +18,63 @@
                     "name": "type",
                     "description": "Set the button type. \n\n Options: `button`, `link`, `submit` \n\n Type: `string`",
                     "values": [
-                        { "name": "button" },
-                        { "name": "link" },
-                        { "name": "submit" }
+                        {
+                            "name": "button"
+                        },
+                        {
+                            "name": "link"
+                        },
+                        {
+                            "name": "submit"
+                        }
                     ]
                 },
                 {
                     "name": "button-style",
                     "description": "Set the style of the button. \n\n Options: `block`, `danger`, `info`, `inverse`, `link`, `primary`, `success`, `warning` \n\n Pass in an array to add multiple styles `[success,block]`",
                     "values": [
-                        { "name": "primary" },
-                        { "name": "success" },
-                        { "name": "info"},
-                        { "name": "warning"},
-                        { "name": "danger"},
-                        { "name": "inverse"},
-                        { "name": "link"},
-                        { "name": "block"}
+                        {
+                            "name": "primary"
+                        },
+                        {
+                            "name": "success"
+                        },
+                        {
+                            "name": "info"
+                        },
+                        {
+                            "name": "warning"
+                        },
+                        {
+                            "name": "danger"
+                        },
+                        {
+                            "name": "inverse"
+                        },
+                        {
+                            "name": "link"
+                        },
+                        {
+                            "name": "block"
+                        }
                     ]
                 },
                 {
                     "name": "state",
                     "description": "Set a progress state on the button \n\n Options: `busy`, `error`, `init`, `success` \n\n Type: `string`",
-                    "values": [ 
-                        { "name": "busy"},
-                        { "name": "error"},
-                        { "name": "init"},
-                        { "name": "success"}
+                    "values": [
+                        {
+                            "name": "busy"
+                        },
+                        {
+                            "name": "error"
+                        },
+                        {
+                            "name": "init"
+                        },
+                        {
+                            "name": "success"
+                        }
                     ]
                 },
                 {
@@ -72,11 +102,19 @@
                 {
                     "name": "size",
                     "description": "Size of button \n\n Options: `xs`, `m`, `l`, `xl` \n\n Type: `string`",
-                    "values": [ 
-                        { "name": "xs"},
-                        { "name": "m"},
-                        { "name": "l"},
-                        { "name": "xl"}
+                    "values": [
+                        {
+                            "name": "xs"
+                        },
+                        {
+                            "name": "m"
+                        },
+                        {
+                            "name": "l"
+                        },
+                        {
+                            "name": "xl"
+                        }
                     ]
                 },
                 {

@@ -1,0 +1,47 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vscode-html-languageservice/master/docs/customData.schema.json",
+    "version": 1.1,
+    "tags": [
+        {
+            "name": "umb-avatar",
+            "description": "### Umbraco avatar \n\n Usage: \n\n ```html \n <umb-avatar \n    size='{string}' \n    img-src='{string}' \n    img-srcset='{string}'>\n</umb-avatar> \n ```",
+            "attributes": [
+                {
+                    "name": "size",
+                    "description": "The size of the avatar \n\n Options: `xs`, `s`, `m`, `l`, `xl` \n\n Type: `string`",
+                    "values": [
+                        {
+                            "name": "xs"
+                        },
+                        {
+                            "name": "s"
+                        },
+                        {
+                            "name": "m"
+                        },
+                        {
+                            "name": "l"
+                        },
+                        {
+                            "name": "xl"
+                        }
+                    ]
+                },
+                {
+                    "name": "img-src",
+                    "description": "The image source to the avatar \n\n Type: `string`"
+                },
+                {
+                    "name": "img-srcset",
+                    "description": "Reponsive support for the image source \n\n Type: `string`"
+                }
+            ],
+            "references": [
+                {
+                    "name": "Umbraco API Docs V8 > Umbraco badge directive `umbAvatar`",
+                    "url": "https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbAvatar"
+                }
+            ]
+        }
+    ]
+}
