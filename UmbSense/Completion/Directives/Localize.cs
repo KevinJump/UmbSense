@@ -16,7 +16,7 @@ namespace UmbSense.Completion.Directives
         };
     }
 
-    [HtmlCompletionProvider(CompletionTypes.Attributes, "input")]
+    [HtmlCompletionProvider(CompletionTypes.Attributes, "*")]
     [ContentType("htmlx")]
     class LocalizeInput : BaseCompletion
     {
