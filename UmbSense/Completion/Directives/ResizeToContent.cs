@@ -4,7 +4,7 @@ using Microsoft.WebTools.Languages.Html.Editor.Completion.Def;
 
 namespace UmbSense.Completion.Directives
 {
-    [HtmlCompletionProvider(CompletionTypes.Attributes, "*")]
+    [HtmlCompletionProvider(CompletionTypes.Attributes, "div")]
     [ContentType("htmlx")]
     class ResizeToContent : BaseCompletion
     {
