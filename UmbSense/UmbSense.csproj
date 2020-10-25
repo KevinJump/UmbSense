@@ -59,6 +59,7 @@
     <Compile Include="Completion\Directives\NoPasswordManager.cs" />
     <Compile Include="Completion\Directives\PreventDefault.cs" />
     <Compile Include="Completion\Directives\PreventEnterSubmit.cs" />
+    <Compile Include="Completion\Directives\ResizeToContent.cs" />
     <Compile Include="Completion\Directives\UmbBadge.cs" />
     <Compile Include="Completion\Directives\UmbCheckbox.cs" />
     <Compile Include="Completion\Directives\UmbClipboard.cs" />
