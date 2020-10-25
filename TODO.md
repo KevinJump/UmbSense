@@ -33,13 +33,13 @@ Source code for the `umbraco.directives` can be found in the following places:
 - [x] `umbContentGrid`
 - [x] `umbControlGroup`
 - [x] `umbDateTimePicker`
-- [ ] `umbDrawer`
-- [ ] `umbDrawerContent`
-- [ ] `umbDrawerFooter`
-- [ ] `umbDrawerHeader`
-- [ ] `umbDrawerView`
-- [ ] `umbDropdown`
-- [ ] `umbDropdownItem`
+- [x] `umbDrawer`
+- [x] `umbDrawerContent`
+- [x] `umbDrawerFooter`
+- [x] `umbDrawerHeader`
+- [x] `umbDrawerView`
+- [x] `umbDropdown`
+- [x] `umbDropdownItem`
 - [x] `umbEditorContainer`
 - [x] `umbEditorFooter`
 - [x] `umbEditorFooterContentLeft`
@@ -51,76 +51,76 @@ Source code for the `umbraco.directives` can be found in the following places:
 - [ ] `umbEditorSubHeaderSection`
 - [x] `umbEditorView`
 - [x] `umbEmptyState`
-- [ ] `umbFileDropzone`
-- [ ] `umbFileIcon`
-- [ ] `umbFileUpload`
-- [ ] `umbFolderGrid`
-- [ ] `umbGenerateAlias`
-- [ ] `umbImageCrop`
-- [ ] `umbImageLazyLoad`
-- [ ] `umbImageThumbnail`
-- [ ] `umbKeyboardList`
-- [ ] `umbkeyboardShortcutsOverview`
-- [ ] `umbLightbox`
-- [ ] `umbLoader`
-- [ ] `umbLoadIndicator`
-- [ ] `umbLockedField`
-- [ ] `umbMediaGrid`
-- [ ] `umbNavigation`
+- [x] `umbFileDropzone`
+- [x] `umbFileIcon`
+- [x] `umbFileUpload`
+- [x] `umbFolderGrid`
+- [x] `umbGenerateAlias`
+- [x] `umbImageCrop`
+- [x] `umbImageLazyLoad`
+- [x] `umbImageThumbnail`
+- [x] `umbKeyboardList`
+- [x] `umbkeyboardShortcutsOverview`
+- [x] `umbLightbox`
+- [x] `umbLoader`
+- [x] `umbLoadIndicator`
+- [x] `umbLockedField`
+- [x] `umbMediaGrid`
+- [x] `umbNavigation`
 - [x] `umbNodePreview`
 - [ ] `umbNotifications`
-- [ ] `umbPagination`
-- [ ] `umbPane`
-- [ ] `umbPanel`
-- [ ] `umbProgressBar`
-- [ ] `umbProgressCircle`
-- [ ] `umbProperty`
-- [ ] `umbPropertyEditor`
-- [ ] `umbRadiobutton`
-- [ ] `umbRangeSlider`
-- [ ] `umbSections`
-- [ ] `umbSingleFileUpload`
-- [ ] `umbStickyBar`
-- [ ] `umbTabContent`
+- [x] `umbPagination`
+- [x] `umbPane`
+- [x] `umbPanel`
+- [x] `umbProgressBar`
+- [x] `umbProgressCircle`
+- [x] `umbProperty`
+- [x] `umbPropertyEditor`
+- [x] `umbRadiobutton`
+- [x] `umbRangeSlider`
+- [x] `umbSections`
+- [x] `umbSingleFileUpload`
+- [x] `umbStickyBar`
+- [x] `umbTabContent`
 - [x] `umbTable`
-- [ ] `umbTabsNav`
-- [ ] `umbTagsEditor`
+- [x] `umbTabsNav`
+- [x] `umbTagsEditor`
 - [x] `umbToggle`
-- [ ] `umbToggleGroup`
+- [x] `umbToggleGroup`
 - [x] `umbTooltip`
-- [ ] `umbTour`
-- [ ] `umbTourStep`
-- [ ] `umbTourStepContent`
-- [ ] `umbTourStepCounter`
-- [ ] `umbTourStepFooter`
-- [ ] `umbTourStepHeader`
-- [ ] `umbTree`
-- [ ] `umbTreeItem`
-- [ ] `umbTreeSearchBox`
-- [ ] `umbTreeSearchResults`
-- [ ] `umbUserGroupPreview`
+- [x] `umbTour`
+- [x] `umbTourStep`
+- [x] `umbTourStepContent`
+- [x] `umbTourStepCounter`
+- [x] `umbTourStepFooter`
+- [x] `umbTourStepHeader`
+- [x] `umbTree`
+- [x] `umbTreeItem`
+- [x] `umbTreeSearchBox`
+- [x] `umbTreeSearchResults`
+- [x] `umbUserGroupPreview`
 
 ### Attributes
 
-- [ ] `autoScale`
-- [ ] `fixNumber`
-- [ ] `hexBgColor`
-- [ ] `hotkey`
-- [ ] `multi`
-- [ ] `navResize`
-- [ ] `noDirtyCheck`
-- [ ] `noPasswordManager`
-- [ ] `preventDefault`
-- [ ] `preventEnterSubmit`
-- [ ] `resizeToContent`
-- [ ] `valEmail`
-- [ ] `valFormManager`
-- [ ] `valHighlight`
-- [ ] `valPropertyMsg`
-- [ ] `valPropertyValidator`
-- [ ] `valRegex`
-- [ ] `valServer`
-- [ ] `valServerField`
-- [ ] `valSubView`
-- [ ] `valTab`
+- [x] `autoScale`
+- [x] `fixNumber`
+- [x] `hexBgColor`
+- [x] `hotkey`
+- [x] `multi`
+- [x] `navResize`
+- [x] `noDirtyCheck`
+- [x] `noPasswordManager`
+- [x] `preventDefault`
+- [x] `preventEnterSubmit`
+- [x] `resizeToContent`
+- [x] `valEmail`
+- [x] `valFormManager`
+- [x] `valHighlight`
+- [x] `valPropertyMsg`
+- [x] `valPropertyValidator`
+- [x] `valRegex`
+- [x] `valServer`
+- [x] `valServerField`
+- [x] `valSubView`
+- [x] `valTab`
 
