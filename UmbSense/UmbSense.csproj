@@ -51,6 +51,7 @@
     <Compile Include="Completion\Directives\AutoScale.cs" />
     <Compile Include="Completion\Directives\FixNumber.cs" />
     <Compile Include="Completion\Directives\HexBgColor.cs" />
+    <Compile Include="Completion\Directives\Hotkey.cs" />
     <Compile Include="Completion\Directives\Localize.cs" />
     <Compile Include="Completion\Directives\UmbBadge.cs" />
     <Compile Include="Completion\Directives\UmbCheckbox.cs" />
