@@ -6,23 +6,20 @@ namespace UmbSense.Completion.Directives
 {
     [HtmlCompletionProvider(CompletionTypes.Attributes, TagName)]
     [ContentType("htmlx")]
-    class Localize : BaseCompletion
+    class UmbTreeItem : BaseCompletion
     {
-        internal const string TagName = "localize";
+        internal const string TagName = "umb-tree-item";
 
-        protected override Dictionary<string, string> values => new Dictionary<string, string>()
-        {
-            { "key", "Localize a specific token to put into the HTML as an item." }
-        };
+        protected override Dictionary<string, string> values => new Dictionary<string, string>();
     }
 
     [HtmlCompletionProvider(CompletionTypes.Attributes, "*")]
     [ContentType("htmlx")]
-    class LocalizeInput : BaseCompletion
+    class UmbTreeItemAttributeSelf : BaseCompletion
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { Localize.TagName, "Add a HTML attribute to an element containing the HTML attribute name you wish to localise Using the format of '@section_key' or 'section_key'." }
+            { UmbTreeItem.TagName, "Renders a list item, representing a single node in the tree. Includes element to toggle children, and a menu toggling button" }
         };
     }
 }

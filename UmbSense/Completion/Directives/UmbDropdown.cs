@@ -25,7 +25,7 @@ namespace UmbSense.Completion.Directives
     {
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { "onClose", "Callback when the dropdown menu closes. When you click outside or press esc." }
+            { "on-close", "Callback when the dropdown menu closes. When you click outside or press esc." }
         };
     }
 }

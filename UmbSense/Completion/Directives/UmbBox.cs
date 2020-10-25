@@ -12,8 +12,8 @@ namespace UmbSense.Completion.Directives
 
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { UmbBoxHeader.TagName, "Use this directive to construct a title." },
-            { "umb-box-content", "content" }
+            { UmbBoxHeader.TagName, "Use this directive to construct a title. Recommended to use it inside an umbBox directive. See documentation for umbBox." },
+            { UmbBoxContent.TagName, "Use this directive to render an empty container. Recommended to use it inside an umbBox directive. See documentation for umbBox." }
         };
     }
 }
