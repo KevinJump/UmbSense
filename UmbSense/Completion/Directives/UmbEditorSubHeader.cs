@@ -12,8 +12,8 @@ namespace UmbSense.Completion.Directives
 
         protected override Dictionary<string, string> values => new Dictionary<string, string>()
         {
-            { "umb-editor-sub-header-content-right", "" },
-            { "umb-editor-sub-header-content-left", "" }
+            { UmbEditorSubHeaderContentRightRight.TagName, "Use this directive to rigt align content in a sub header in the main editor window." },
+            { UmbEditorSubHeaderContentRightLeft.TagName, "Use this directive to left align content in a sub header in the main editor window." }
         };
     }
 }
