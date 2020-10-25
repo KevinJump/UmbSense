@@ -140,6 +140,7 @@
     <Compile Include="Completion\Directives\ValEmail.cs" />
     <Compile Include="Completion\Directives\ValFormManager.cs" />
     <Compile Include="Completion\Directives\ValHighlight.cs" />
+    <Compile Include="Completion\Directives\ValPropertyMsg.cs" />
     <Compile Include="Completion\UmbracoElements.cs" />
     <Compile Include="Images.imagemanifest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
