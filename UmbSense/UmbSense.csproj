@@ -55,6 +55,7 @@
     <Compile Include="Completion\Directives\Localize.cs" />
     <Compile Include="Completion\Directives\Multi.cs" />
     <Compile Include="Completion\Directives\NavResize.cs" />
+    <Compile Include="Completion\Directives\NoDirtyCheck.cs" />
     <Compile Include="Completion\Directives\UmbBadge.cs" />
     <Compile Include="Completion\Directives\UmbCheckbox.cs" />
     <Compile Include="Completion\Directives\UmbClipboard.cs" />
