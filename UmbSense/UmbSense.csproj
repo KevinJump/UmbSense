@@ -74,6 +74,7 @@
     <Compile Include="Completion\Directives\UmbDrawerView.cs" />
     <Compile Include="Completion\Directives\UmbDropdown.cs" />
     <Compile Include="Completion\Directives\UmbDropdownItem.cs" />
+    <Compile Include="Completion\Directives\UmbEditorSubHeaderContentRightLeft.cs" />
     <Compile Include="Completion\Directives\UmbFileDropzone.cs" />
     <Compile Include="Completion\Directives\UmbFileIcon.cs" />
     <Compile Include="Completion\Directives\UmbFileUpload.cs" />
