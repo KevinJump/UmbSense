@@ -61,6 +61,7 @@
     <Compile Include="Completion\Directives\PreventEnterSubmit.cs" />
     <Compile Include="Completion\Directives\ResizeToContent.cs" />
     <Compile Include="Completion\Directives\UmbBadge.cs" />
+    <Compile Include="Completion\Directives\UmbBoxContent.cs" />
     <Compile Include="Completion\Directives\UmbCheckbox.cs" />
     <Compile Include="Completion\Directives\UmbClipboard.cs" />
     <Compile Include="Completion\Directives\UmbCodeSnippet.cs" />
