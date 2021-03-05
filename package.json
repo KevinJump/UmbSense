@@ -1,11 +1,15 @@
 {
-    "name": "umbsense",
-    "displayName": "UmbSense",
-    "description": "Intellisense for Umbraco Html elements",
-    "version": "0.0.1",
+    "name": "umbsense-vscode",
+    "icon": "logo-128.png",
+    "displayName": "UmbSense for vscode",
+    "description": "Intellisense for Umbraco Html elements for vscode",
+    "version": "0.1.0",
+    "publisher": "KevinJump",
+    "repository": "https://github.com/KevinJump/UmbSense/tree/vs-code",
     "engines": {
         "vscode": "^1.50.0"
     },
+    "categories": ["Other"],
     "contributes": {
         "html": {
             "customData": [

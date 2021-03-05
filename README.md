@@ -1,11 +1,11 @@
-# UmbSense vscode
+Intellisense for Umbraco Backoffice UI - For vscode.
 
-Visual Studio code extensions to add umbraco tags to html intelisense. 
+Adds IntelliSense for the most common umb- directives to make it easier for you to utilize the existing Umbraco Angular directives and components in your own packages or add ons for the Umbraco back office.
 
-# Debugging 
-Open this folder in vscode and run debug task (F5) that should open another
-copy of vscode with the intellisense loaded.
 
-# TODO
-- [ ] Add All the tags,
-- [ ] Come up with a way to build the individual tag json files into one big one for release
+![Demo](demo.gif)
+
+
+
+
+
